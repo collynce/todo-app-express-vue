@@ -22,9 +22,8 @@ class TaskService {
     }
 
     static createTask(task) {
-        return axios.post(url), {
-            task,
-            status
+        axios.post(url), {
+            task
         }
     }
 
